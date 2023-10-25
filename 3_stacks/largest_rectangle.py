@@ -1,3 +1,4 @@
+# LeetCode Link: https://leetcode.com/problems/largest-rectangle-in-histogram/submissions/1083925861/
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         # Initialize a stack to keep track of indices of the histogram bars.
