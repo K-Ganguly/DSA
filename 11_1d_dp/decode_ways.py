@@ -1,3 +1,4 @@
+# LeetCode Link: https://leetcode.com/problems/decode-ways/
 # Approach 1: Recursion with Memoization
 class Solution:
     def numDecodings(self, s: str) -> int:
