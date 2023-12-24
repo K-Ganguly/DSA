@@ -7,9 +7,7 @@ class Solution:
         # Calculate the product of all elements to the left of each element.
         left_product = 1
         for i, num in enumerate(nums):
-            product_array[
-                i
-            ] = left_product  # Store the product of elements to the left.
+            product_array[i] = left_product
             left_product *= nums[i]  # Update the product for the next element.
 
         # Calculate the product of all elements to the right of each element and combine it with the left product.
